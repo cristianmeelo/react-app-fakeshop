@@ -1,7 +1,8 @@
 import { combineReducers } from "@reduxjs/toolkit"
-import { productReducer } from "../products/reducer"
+import { productReducer, selectedProductReducer } from "../products/reducer"
 
 export const reducers = combineReducers({
     allProducts: productReducer,
+    product: selectedProductReducer
 })
 
