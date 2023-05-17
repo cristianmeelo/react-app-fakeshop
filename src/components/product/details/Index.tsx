@@ -1,36 +1,35 @@
-import React, { useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { fetchProductDetail } from '../../../services/api';
 import { selectedProduct, removeSelectedProduct } from '../../../redux/products/actions';
 import { useDispatch, useSelector } from 'react-redux';
-import { IProduct } from '../../../types/types';
 
 export const ProductDetails = () => {
-  const product: IProduct = useSelector((state: any) => state.product);
+  const product: IProduct = useSelector((state: productReducer) => state.product);
   const { productId } = useParams();
   const dispatch = useDispatch();
 
   const handleFetchProductDetail: VoidFunction = async () => {
     try {
       const response = await fetchProductDetail(productId);
-      dispatch(selectedProduct(response.data))
-    }
-    catch (error: any) {
+      dispatch(selectedProduct(response.data));
+    } catch (error: unknown) {
       console.log(error);
     }
   };
 
   useEffect(() => {
-    if (productId && productId !== "") handleFetchProductDetail();
+    if (productId && productId !== '') handleFetchProductDetail();
     return () => {
       dispatch(removeSelectedProduct());
-    }
-  }, [productId])
-
+    };
+  }, [productId]);
 
   return (
     <div className="ui grid container">
-      {Object.keys(product).length === 0 ? (<>... Loading</>) :
+      {Object.keys(product).length === 0 ? (
+        <>... Loading</>
+      ) : (
         <div className="ui placeholder segment">
           <div className="ui two column stackable center aligned grid">
             <div className="ui vertical divider">💎</div>
@@ -55,9 +54,7 @@ export const ProductDetails = () => {
             </div>
           </div>
         </div>
-      }
+      )}
     </div>
-  )
-}
-
-
+  );
+};
