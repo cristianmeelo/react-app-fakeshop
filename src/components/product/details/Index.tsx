@@ -5,7 +5,7 @@ import { selectedProduct, removeSelectedProduct } from '../../../redux/products/
 import { useDispatch, useSelector } from 'react-redux';
 
 export const ProductDetails = () => {
-  const product: IProduct = useSelector((state: productReducer) => state.product);
+  const product: IProduct = useSelector((state: ProductReducer) => state.product);
   const { productId } = useParams();
   const dispatch = useDispatch();
 

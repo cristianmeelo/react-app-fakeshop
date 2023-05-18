@@ -5,15 +5,13 @@ import { ProductDetails } from '../components/product/details/Index';
 
 export const AppRoutes = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<ProductListing />} />
-          <Route path="/product/:productId" element={<ProductDetails />} />
-          <Route>404 Not Found</Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<ProductListing />} />
+        <Route path="/product/:productId" element={<ProductDetails />} />
+        <Route>404 Not Found</Route>
+      </Routes>
+    </BrowserRouter>
   );
 };

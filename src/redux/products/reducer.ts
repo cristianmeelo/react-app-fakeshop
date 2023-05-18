@@ -14,7 +14,6 @@ export const productReducer = (state: ProductReducerState = initialState, { type
       return state;
   }
 };
-
 export const selectedProductReducer = (state: SelectedProductReducerState = selectedProductInitialState, { type, payload }: SelectedProductAction) => {
   switch (type) {
     case ActionTypes.SELECTED_PRODUCT:
