@@ -1,7 +1,7 @@
 <table align="right">
   <tr>
     <td>
-      <a href="README-en.md">🇺🇸 English (only in GitHub)</a>
+      <a href="README-EN.md">🇺🇸 English (only in GitHub)</a>
     </td>
   </tr>
   <tr>
