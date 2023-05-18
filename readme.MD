@@ -1,36 +1,60 @@
-![FakeShop](thumbnail.png)
+<table align="right">
+  <tr>
+    <td>
+      <a href="README-en.md">🇺🇸 English</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="README.md">🇧🇷 Português</a>
+    </td>
+  </tr>
+</table>
+
+![](https://github.com/cristianmeelo/react-redux-tool/blob/main/thumbnail.png?raw=true#vitrinedev)
 
 # FakeShop
 
-Fakeshop is a virtual e-commerce store.
-There, you can access a product and see its details.
+A Fakeshop é uma loja virtual de e-commerce. Lá, você pode acessar um produto e ver seus detalhes.
 
-<img src="screencapture.png" alt="Imagem do Freelando" width="50%">
+<img src="screencapture.png" alt="Image App" >
+<div align="center">
+<a href="https://react-redux-ecommerce-boibfst0v-cristianmeelo.vercel.app/">
+  <img src="https://img.shields.io/badge/-confira%20aqui-lightgrey" alt="Image App" >
+</a>
+</div>
 
-## 🔨 Project features
+## 🔨 Recursos do projeto
 
-FakeShop is an online e-commerce. For the design, the semantic UI framework was used, providing more time for the development of state management. Using axios, accessing the page of each product makes the API call easy to read. Using redux in the app, we fixed the concepts before bringing them to the company's projects.
+FakeShop é um e-commerce online. Para o design, foi utilizado o framework semântico de UI, proporcionando mais tempo para o desenvolvimento do gerenciamento de estado. Usando axios, acessar a página de cada produto facilita a leitura da chamada da API. Utilizando o redux no app, fixei os conceitos antes de trazê-los para os projetos da empresa que trabalho. O typescript vem como a cereja no topo do bolo e adiciona robustez ao projeto.
 
-The [Tutorial of this application you can find here](https://www.youtube.com/watch?v=0W6i5LYKCSI&ab_channel=DipeshMalvia).
+## ⚙️ Técnicas e tecnologias usadas
 
-## ✔️ Techniques and technologies used
-
-Check out this list of everything we will use in this app:
+Confira essa lista de tudo que vamos usar nesse app:
 
 - `React`
 - `Vite`
 - `TypeScript`
-- `Axios`
 - `Redux`
 - `Semantic UI`
+- `Axios`
 - `GitHub`
 
-## 🛠️ Open and run the project
+## 🛠️ Abra e execute o projeto
 
-To open and run the project, run `npm i` to install the dependencies and `npm run dev` to start the project.
+Para abrir e executar o projeto, execute `npm i` para instalar as dependências e `npm run dev` para iniciar o projeto.
 
-Then go to <a href="http://localhost:3000/">http://localhost:3000/</a> in your browser.
+Em seguida, vá para <a href="http://localhost:3000/">http://localhost:3000/</a> em seu navegador.
 
-## 📚 More course information
+## 📚 Mais informações do tutorial
 
-Fakeshop is a fictitious virtual e-commerce developed from the [Dipesh Malvia](https://www.youtube.com/@DipeshMalvia) tutorial. The main idea of ​​this tutorial implementation is to further evolve knowledge in React and the redux state management tool, implementing reducers, actions and action-types.
+Para abrir e executar o projeto, execute `npm i` para instalar as dependências e `npm run dev` para iniciar o projeto.
+
+Fakeshop é um e-commerce virtual fictício desenvolvido a partir do tutorial [Dipesh Malvia](https://www.youtube.com/@DipeshMalvia). A ideia principal da implementação deste tutorial é evoluir ainda mais o conhecimento em React e na ferramenta de gerenciamento de estado redux, implementando redutores, ações e tipos de ação.
+
+| :placard: Vitrine.Dev |                                                                             |
+| --------------------- | --------------------------------------------------------------------------- |
+| :sparkles: Nome       | **Fake Shop**                                                               |
+| :label: Tecnologias   | React, TypeScript,Redux, Semantic Ui, Axios, GitHub(tecnologias utilizadas) |
+| :rocket: URL          | https://react-redux-ecommerce-boibfst0v-cristianmeelo.vercel.app/           |
+| :fire: Desafio        | https://www.youtube.com/watch?v=0W6i5LYKCSI&ab_channel=DipeshMalvia         |
