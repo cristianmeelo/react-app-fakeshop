@@ -13,10 +13,11 @@
 
 ![](https://github.com/cristianmeelo/react-redux-tool/blob/main/thumbnail-en.png?raw=true)
 
-<img src="mockup.gif" alt="Image App" >
+![](https://github.com/cristianmeelo/react-app-fakeshop/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+
 <div align="center">
 <a href="https://react-app-fakeshop.vercel.app/">
-  <img src="https://img.shields.io/badge/-CHECK%20HERE-red"
+  <img src="https://img.shields.io/badge/-CHECK%20HERE-lightblue"
   alt="Image App" >
 </a>
 </div>
@@ -59,5 +60,3 @@ Fakeshop is a fictitious virtual e-commerce developed from the [Dipesh Malvia](h
 | :label: Technologies  | React, TypeScript,Redux, Semantic Ui, Axios, GitHub ( used Technologies) |
 | :rocket: URL          | https://react-app-fakeshop.vercel.app/                                   |
 | :fire: Challenge      | https://www.youtube.com/watch?v=0W6i5LYKCSI&ab_channel=DipeshMalvia      |
-
-![](https://github.com/cristianmeelo/react-app-fakeshop/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
