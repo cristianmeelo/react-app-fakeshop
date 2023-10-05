@@ -13,7 +13,7 @@
 
 ![](https://github.com/cristianmeelo/react-redux-tool/blob/main/thumbnail-en.png?raw=true)
 
-![](https://github.com/cristianmeelo/react-app-fakeshop/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/react-app-fakeshop/blob/main/thumbnail-mockup.png?raw=true)
 
 <div align="center">
 <a href="https://react-app-fakeshop.vercel.app/">
